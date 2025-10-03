@@ -16,5 +16,8 @@
     "url": "https://github.com/Achinit99/myfirst_simple_dockerfile/issues"
   },
   "homepage": "https://github.com/Achinit99/myfirst_simple_dockerfile#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
