@@ -1,0 +1,20 @@
+{
+  "name": "docker-sample-first",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Achinit99/myfirst_simple_dockerfile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Achinit99/myfirst_simple_dockerfile/issues"
+  },
+  "homepage": "https://github.com/Achinit99/myfirst_simple_dockerfile#readme",
+  "description": ""
+}
