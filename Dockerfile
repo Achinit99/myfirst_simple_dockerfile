@@ -5,7 +5,7 @@ FROM node:20-alpine
 WORKDIR /app
 
 # copy the package.json file
-COPY package.json .
+COPY package*.json .
 
 # install the dependencies
 RUN npm install
