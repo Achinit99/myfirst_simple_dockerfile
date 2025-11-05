@@ -3,7 +3,7 @@ name: My First Workflow
 on: push
 
 jobs:
-    second_job:
+    unit-tests:
         run-on: ubuntu-latest
         steps:
         - name: welcome message
