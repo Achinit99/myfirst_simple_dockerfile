@@ -1,0 +1,28 @@
+name: My First Workflow
+
+on: push
+
+jobs:
+    second_job:
+        run-on: ubuntu-latest
+        steps:
+        - name: welcome message
+          run: echo "My first Github Actions Job"
+
+        - name: List files
+          run: ls 
+
+        - name: checkout
+          uses: actions/ckeckout@v3
+
+        - name: Install Nodejs
+          uses: actions/setup-node@v3
+          with:
+            node-version: 22
+
+        - name: Install Dependencies
+          run: npm install 
+
+        - name: Run Unit Tests
+          run: npm test 
+        
