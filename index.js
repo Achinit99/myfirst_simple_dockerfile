@@ -1,4 +1,4 @@
-const a = 30;
+const a = 50;
 const b = 23;
 const sum = a + b;
 
